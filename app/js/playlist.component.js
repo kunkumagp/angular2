@@ -24,7 +24,8 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                 PlaylistComponent = __decorate([
                     core_1.Component({
                         selector: 'playlist',
-                        templateUrl: 'app/ts/playlist.component.html'
+                        templateUrl: 'app/ts/playlist.component.html',
+                        inputs: ['videos']
                     }), 
                     __metadata('design:paramtypes', [])
                 ], PlaylistComponent);

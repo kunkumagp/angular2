@@ -21,6 +21,9 @@ System.register(['angular2/core'], function(exports_1, context_1) {
             PlaylistComponent = (function () {
                 function PlaylistComponent() {
                 }
+                PlaylistComponent.prototype.onselect = function (vid) {
+                    console.log(JSON.stringify(vid));
+                };
                 PlaylistComponent = __decorate([
                     core_1.Component({
                         selector: 'playlist',
